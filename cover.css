@@ -1,0 +1,377 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+html,
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+body {
+  color: #000;
+  text-align: center;
+      overflow: overlay;
+
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  background-image: url('home-banner.jpg');
+}
+.site-wrapper-inner {
+      display: table-cell;
+    vertical-align: top;
+    height: 500px;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 2rem;
+}
+
+#invest-us-link { float: right;    margin-top: -5px; color: #fff;}
+
+#logo 
+
+{ 
+float: left;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+#banner-invest-us-button {
+    width: 400px;
+    float: right;
+    margin-top: 5em;
+    margin-right: 0em;
+    background-image: url('invest-banner-button-bg.jpg');
+    padding: 2em;
+    margin-bottom: 0;
+    text-align: left;
+        font-size: 14pt;
+    font-weight: bold;
+    color: #fff;
+}
+#invest-arrow { margin: 0px 0px 0px 20px;}
+#invest-arrow-menu { }
+.cover h1 {
+font-size: 50px; 
+color: #fff;  
+    margin-top: 25px;   
+}
+.cover p {
+    font-size: 16px;
+    color: #fff;
+    background-color: #d13624;
+    float: none;
+    margin: auto;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    display: inline;
+}
+.section-1 h2 { font-size: 42px;
+    text-align: left;
+    padding: 15px; color: #132f3e;     font-weight: bold;}
+ul.navbar-nav.mr-auto {     float: none;
+    margin: auto;
+    padding-top: 25px;
+  }
+    .bg-light {
+    background-color: transparent!important; color: #fff;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.section-1 {
+    margin-top: 50px;
+}
+.fontresize { text-align: left;}
+
+.list-group-item-action {
+    width: 100%;
+    color: #495057;
+    text-align: left;
+}
+.asidediv { margin-top: 25%;}
+
+i.fa.fa-long-arrow-right.aside {
+    float: right;
+    font-size: 22px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    color: #334652;
+    font-weight: 500;
+       /*border-bottom: solid 2px;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;*/
+}
+.achievements span { font-size: 55px; color: #132f3e; font-weight: bold;}
+.achievements {     margin-top: 4em;
+    padding: 3em;
+    margin-bottom: 5em;}
+.list-group-item-action:hover { background-color:transparent; color: #ef3b24; border-bottom: solid 1px #ef3b24;}
+.blog-section h2 {
+    font-size: 25px;
+    color: #132f3e;
+    padding: 22px;
+    font-weight: bold;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+i.fa.fa-long-arrow-right:hover { color: #ef3b24 ;}
+.blog-section p { font-size: 14px; color: #132f3e; text-align: left;}
+.blog-section p a { font-size: 16px; font-weight: 500; color: #132f3e; text-align: left;}
+.blog { margin-bottom: 6em;}
+
+footer {
+    margin: 0 auto;
+    width: 100%;
+    background: #061821;
+    bottom: 0;
+    color: #000000;
+    height: 454px;
+    
+}
+ul.footer-nav {
+    display: inline-flex;
+}
+#footer-logo { padding-top: 5em;}
+
+a.footer-investscience-btn{
+        font-size: 14px;
+    border: 1px solid #cccccc;
+    padding: 25px 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+img#footer-invest-arrow {
+    margin: 0px 0px 0px 20px;
+}
+ul.nav.justify-content-center { margin-bottom: 4em;}
+
+a.footer-investscience-btn:hover { color: #fff;}
+
+a.social-icons {
+    margin-left: 10px;
+}
+
+.footer-bottom p { text-align: left;     margin-top: 5em; color: #fff;}
+
+.back-to-top { float: right;}
+
+#myBtn {
+  display: none;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #ef3b24;
+  color: white;
+  cursor: pointer;
+  padding: 25px;
+  border-radius: 0;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:#0056b3;
+}
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: #fff;
+      text-decoration: none;
+
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+       float: none;
+    margin: 2em;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+      padding: 0 1.5rem;
+    margin-top: 15em;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+
+
+/*
+ * Affix and center
+ */
+@media (min-width: 40em) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: absolute;
+    top: 0;
+  }
+  .mastfoot {
+    position: absolute;
+    bottom: 0;
+  }
+
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    /*vertical-align: middle;*/
+  }
+
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 62em) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
+}
+
+
+
+/*mobiles phones responsive*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+.cover {
+    padding: 0 1.5rem;
+    margin-top: 5em;
+}
+
+.navbar-toggler {
+    padding: 10px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: white;
+    border: 1px solid #fff;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+#logo {
+    float: right;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 0px;
+}
+footer {
+    width: max-content;
+}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+
+#logo {
+    float: right;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 0px;
+}
+div#navbarsExample09 {
+    background: black;
+    margin-top: 0em;
+}
+.navbar { padding: 0;}
+.navbar-toggler { margin: 1em;}
+}
